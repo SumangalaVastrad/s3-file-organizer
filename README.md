@@ -57,9 +57,3 @@ Total files uploaded: 5
 - The "folders" in S3 are really just prefixes in the file name.
 - My first real run failed with Access Denied because I forgot to replace the placeholder bucket name, so now I read the error message before guessing.
 - Writing a mock test with moto let me check the sorting logic before touching AWS.
-
-## Ideas for later
-
-- Skip files that are already in the bucket
-- Show the total size uploaded
-- Run it automatically on a schedule
